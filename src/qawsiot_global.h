@@ -3,7 +3,7 @@
 #include <QtCore/QtGlobal>
 
 #ifdef BUILD_SHARED_LIBS
-#  if defined(QTAWSIOT_LIBRARY)
+#  if defined(QTAWSIOT_LIBRARY_BUILD)
 #    define QTAWSIOT_EXPORT Q_DECL_EXPORT
 #    ifdef PRIVATE_TESTS_ENABLED
 #      define QTAWSIOT_AUTOTEST_EXPORT Q_DECL_EXPORT
